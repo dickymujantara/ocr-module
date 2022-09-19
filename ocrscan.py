@@ -6,7 +6,7 @@ import cv2
 import re
 
 # --- this command just for running in windows ---
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
 # --- this command just for running in windows ---
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
