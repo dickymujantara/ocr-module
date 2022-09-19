@@ -72,7 +72,3 @@ def upload_file():
         resp = jsonify({'message': 'Allowed file types are png, jpg, jpeg'})
         resp.status_code = 500
         return resp
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
