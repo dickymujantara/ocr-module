@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker ocrscan:app
+web: gunicorn ocrscan:app
