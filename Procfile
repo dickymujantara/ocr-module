@@ -1,1 +1,1 @@
-web: gunicorn ocrscan:app
+web: gunicorn wsgi:app
